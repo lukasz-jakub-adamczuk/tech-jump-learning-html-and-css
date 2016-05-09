@@ -1,0 +1,31 @@
+div h1 {
+    font-size: 2em;
+}
+
+h1 {
+    color: red;
+    background: #faa;
+    font-size: 1em;
+}
+p {
+	font-size: 1em;
+	padding: 2em;
+}
+
+
+.red-border {
+	border: 1px solid #ff0000;
+}
+
+li {
+	width: 50%
+}
+
+li {
+
+}
+
+p {
+	padding: 12px;
+	margin: 45px;
+}
