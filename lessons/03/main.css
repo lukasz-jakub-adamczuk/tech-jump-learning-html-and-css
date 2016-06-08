@@ -1,0 +1,143 @@
+html {
+    background-color: #eeeeee;
+}
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* header */
+
+body > header {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 16px;
+    padding: 2em 4em;
+}
+
+/* article */
+
+article {
+    vertical-align: top;
+    width: 629px;
+    margin: 15px 0 15px 15px;
+    display: inline-block;
+    /*background: #aaa;*/
+    padding-right: 15px;
+    border-right: 1px dashed #444;
+}
+article header {
+    text-align: center;
+}
+article header h1 {
+    font: bold 4em monospace;
+    margin: 0 0 1em;
+}
+article header p {
+    font: italic 1.5em serif;
+    color: #444;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+article header:after {
+    content: '';
+    display: block;
+    border-bottom: 4px solid #444;
+    width: 50px;
+    margin: 64px auto;
+}
+
+article p:first {
+    font-weight: bold;
+}
+article p:first-child + p:first-letter {
+    font-size: 4em;
+    text-indent: 2em;
+}
+article .media {
+    float: left;
+    width: 200px;
+    margin: 0 1em 1em 0;
+}
+article .main-image {
+    width: 100%;
+}
+
+/* aside */
+
+aside {
+    vertical-align: top;
+    width: 270px;
+    margin: 15px;
+    display: inline-block;
+    background-color: #dddddd;
+
+    font-family: sans-serif;
+}
+aside h2 {
+    background: #aaa;
+    color: #444;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 1em;
+}
+aside p {
+    margin: 1em 1em 1em;
+}
+
+/* related articles */
+
+section {
+    /*border-top: 10px dashed deepskyblue;*/
+    text-align: center;
+    /*background: #aaa;*/
+    /*border-left: 1px solid #aaa;*/
+    /*border-right: 1px solid #aaa;*/
+}
+section h2 {
+    /*border-top: 4px solid red;
+    border-right: 4px dotted green;
+    border-bottom: 4px double blue;
+    border-left: 4px dashed black;*/
+    padding: 1em;
+}
+section article {
+    display: inline-block;
+    background-color: #cccccc;
+    width: 270px;
+    margin: 5px;
+    text-align: justify;
+    height: 400px;
+    border: 0;
+    padding: 0;
+    border-bottom: 1px solid #444;
+}
+section article p {
+    margin: 1em 1em 1em;
+}
+section article h3 {
+    margin: 1em 1em 1em;
+    color: #444;
+}
+section article img {
+    width: 100%;
+}
+
+/* footer */
+
+#footer {
+    font-family: sans-serif;
+    height: 50px;
+    margin-top: 50px;
+    border-top: 1px solid #888;
+    color: #444;
+    padding: 1em 1em 0;
+}
+#footer span {
+    font-size: .75em;
+}
+#footer .copyright {
+    float: right;
+}
