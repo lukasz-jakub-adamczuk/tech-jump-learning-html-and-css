@@ -1,0 +1,43 @@
+body {
+    font: 100% Lucida, sans-serif;
+
+    width: 960px;
+    margin: 0 auto;
+
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+h1 {
+    background: #eee;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: .5em;
+    margin: 0;
+}
+form {
+    margin: 100px auto;
+}
+sup {
+    color: red;
+}
+.indented {
+    padding-left: 1em;
+}
+
+
+
+/* footer */
+#footer {
+    font-family: sans-serif;
+    height: 50px;
+    margin-top: 50px;
+    border-top: 1px solid #888;
+    color: #444;
+    padding: 1em 1em 0;
+}
+#footer span {
+    font-size: .75em;
+}
+#footer .copyright {
+    float: right;
+}
